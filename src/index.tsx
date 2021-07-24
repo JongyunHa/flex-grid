@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./components/chapther1/default.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
