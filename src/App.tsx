@@ -1,12 +1,13 @@
 import React from 'react';
-import BulletList from './components/chapter2/BelletList';
+import MessageList from './components/chapter2/MessageList';
 
 function App() {
   return (
     <div>
       {/* <Menu /> */}
       {/* <SearchBar/> */}
-      <BulletList />
+      {/*<BulletList />*/}
+      <MessageList />
     </div>
   );
 }
