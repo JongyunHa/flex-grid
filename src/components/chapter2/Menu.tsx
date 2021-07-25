@@ -1,6 +1,6 @@
 import React from 'react';
 import '../default.css';
-import './ui.css';
+import './menu.css';
 
 const Menu = () => {
   return (

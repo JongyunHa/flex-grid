@@ -14,9 +14,7 @@ const UserList = () => {
               backgroundImage: `url(${background})`,
             }}
           ></figure>
-          <p className="user-name">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          </p>
+          <p className="user-name">Full stack developer</p>
         </li>
         <li className="user-item friend-item">
           <figure
@@ -25,9 +23,7 @@ const UserList = () => {
               backgroundImage: `url(${background})`,
             }}
           ></figure>
-          <p className="user-name">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          </p>
+          <p className="user-name">하종윤</p>
         </li>
         <li className="user-item friend-item">
           <figure
@@ -36,9 +32,7 @@ const UserList = () => {
               backgroundImage: `url(${background})`,
             }}
           ></figure>
-          <p className="user-name">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          </p>
+          <p className="user-name">Jongyun Ha</p>
         </li>
       </ul>
     </div>

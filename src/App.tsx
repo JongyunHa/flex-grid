@@ -1,16 +1,10 @@
 import React from 'react';
-import CardList from './components/chapter2/CardList';
+import ReactivePage from './components/chapter3/ReactivePage';
 
 function App() {
   return (
     <div>
-      {/*<Menu />*/}
-      {/* <SearchBar/> */}
-      {/*<BulletList />*/}
-      {/* <MessageList /> */}
-      {/* <UserList /> */}
-      {/* <Modal /> */}
-      <CardList />
+      <ReactivePage />
     </div>
   );
 }
