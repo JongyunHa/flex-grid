@@ -1,0 +1,33 @@
+/* menu */
+.menu {
+  display: flex;
+}
+.menu-item {
+  /* flex grow 보다 width를 사용하는걸 추천함!
+   * ie11 에서 flex에 작은 버그가 있기 때문에 */
+  /* flex-grow: 1; */
+  width: 25%;
+  background: gold;
+  transition: 0.5s;
+}
+
+.menu-item:hover {
+  /* flex-grow: 1.5; */
+  width: 35%;
+  background: crimson;
+}
+
+.menu-link {
+  display: block;
+  padding: 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  /* a 태그의 밑줄 제거 */
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
+}

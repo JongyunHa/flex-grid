@@ -1,12 +1,12 @@
-import React from 'react';
-import Flex from "./components/chapther1";
+import React from "react";
+import Menu from "./components/chapter2/Menu";
 
 function App() {
-  return (
-      <>
-          <Flex/>
-      </>
-  )
+    return (
+        <div>
+            <Menu />
+        </div>
+    );
 }
 
 export default App;

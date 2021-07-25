@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-item:nth-child(1) {
+  flex-shrink: 0;
+  width: 150px;
+}
+.flex-item:nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-item:nth-child(3) {
+  width: 200px;
+}
