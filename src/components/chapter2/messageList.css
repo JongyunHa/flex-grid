@@ -9,15 +9,29 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 150%;
+  transition: 1s;
 }
 
 .user-photo:hover {
   width: 100px;
   height: 100px;
   border: 2px solid blue;
+  transition: 1s;
 }
 
 .user-item {
   display: flex;
   margin-bottom: 1.5rem;
+}
+
+/* friend list */
+
+.friend-item {
+  align-items: center;
+}
+
+.user-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

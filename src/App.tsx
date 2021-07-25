@@ -1,13 +1,15 @@
 import React from 'react';
 import MessageList from './components/chapter2/MessageList';
+import UserList from './components/chapter2/UserList';
 
 function App() {
   return (
     <div>
-      {/* <Menu /> */}
+      {/*<Menu />*/}
       {/* <SearchBar/> */}
       {/*<BulletList />*/}
-      <MessageList />
+      {/* <MessageList /> */}
+      <UserList />
     </div>
   );
 }
