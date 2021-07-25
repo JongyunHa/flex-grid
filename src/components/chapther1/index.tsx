@@ -12,6 +12,12 @@ const Flex = () => {
                 <div className="flex-item">AAAAAAAAAAAA</div>
                 <div className="flex-item">BBBB</div>
                 <div className="flex-item">CCCCCCC</div>
+                <div className="flex-item">AAAAAAAAAAAA</div>
+                <div className="flex-item">BBBB</div>
+                <div className="flex-item">CCCCCCC</div>
+                <div className="flex-item">AAAAAAAAAAAA</div>
+                <div className="flex-item">BBBB</div>
+                <div className="flex-item">CCCCCCC</div>
             </div>
         </body>
     )
