@@ -1,14 +1,14 @@
-import React from "react";
-import Menu from "./components/chapter2/Menu";
-import SearchBar from "./components/chapter2/SearchBar";
+import React from 'react';
+import BulletList from './components/chapter2/BelletList';
 
 function App() {
-    return (
-        <div>
-            {/* <Menu /> */}
-          <SearchBar/>
-        </div>
-    );
+  return (
+    <div>
+      {/* <Menu /> */}
+      {/* <SearchBar/> */}
+      <BulletList />
+    </div>
+  );
 }
 
 export default App;
